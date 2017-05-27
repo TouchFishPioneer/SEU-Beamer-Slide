@@ -69,12 +69,13 @@
 %%%
 
 % Background
-\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{ccnu_background}
+\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{seu_background}
 \setbeamertemplate{background}{\pgfuseimage{bg}}
 
 % Colors
-%\usecolortheme[RGB={182,11,45}]{structure}
-\usecolortheme[RGB={0,98,109}]{structure}
+% \usecolortheme[RGB={182,11,45}]{structure} %Red
+% \usecolortheme[RGB={0,98,109}]{structure} %CCNU
+\usecolortheme[RGB={81,122,52}]{structure} %SEU
 
 \setbeamercolor{frametitle}{parent=subsection in head/foot}
 \setbeamercolor{frametitle right}{parent=section in head/foot}
@@ -114,8 +115,8 @@
   \leavevmode%
   \@tempdimb=6.4375ex%
     %\multiply\@tempdimb by\beamer@sectionmax%
-    \pgfdeclareimage[height=.95\@tempdimb]{logo}{ccnu_logo.png}%
-    \pgfdeclareimage[height=1.\@tempdimb]{title_logo}{ccnu_title.png}%
+    \pgfdeclareimage[height=.95\@tempdimb]{logo}{seu_logo.png}%
+    \pgfdeclareimage[height=1.\@tempdimb]{title_logo}{seu_title.png}%
   \logo{\pgfuseimage{logo}}%
   \ifdim\@tempdimb>0pt%
     \advance\@tempdimb by 1.125ex%
