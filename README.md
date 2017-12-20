@@ -34,7 +34,7 @@ My Friend, are you still worried about academic reports, thesis defense, class a
 - Club activities and class activities
 - Wooing your favorite little brother(s)/sister(s)
 
-### Use this template, you need:
+### To use this template, you need:
 - A little bit of programming skills
 - A little bit of LaTeX experience
 - Dare to lose face
