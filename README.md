@@ -16,7 +16,7 @@
 - 一丢丢地不要脸
 
 ### 我为你准备了
-不再像其他模板一样需要掌握编写复杂的MakeFile的技术，我已经将编译过程封装在make.bat文件下，Windows用户只需轻轻一点，就可以静享丝滑编译体验。Mac OS、Linux和其他类Unix系统使用者也现在可以收获同等的喜悦，因为为你们准备的make.sh已加入豪华午餐。
+不再像其他模板一样需要掌握编写复杂的MakeFile的技术，我已经将编译过程封装在make.bat文件下，Windows用户只需轻轻一点，就可以静享丝滑编译体验。Mac OS、Linux和其他类Unix系统使用者也现在可以收获同等的喜悦，因为为你们准备的make.sh已加入豪华午餐。
 
 ### 开源许可证
 [GPL-3.0 © wurahara](https://github.com/wurahara/SEU-Beamer-Slide/blob/master/LICENSE)
