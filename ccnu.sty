@@ -10,7 +10,7 @@
 \usecolortheme{whale}
 
 % Layout scheme for inner elements: rounded elements
-\useinnertheme{rounded}
+\useinnertheme[shadow]{rounded}
 
 % Color scheme for inner elements: use foreground colors
 \usecolortheme{orchid}
@@ -37,6 +37,11 @@
 
 % Part page:
 \setbeamertemplate{part page}[default][colsep=-4bp,rounded=true]
+
+\setbeamertemplate{caption}[numbered]
+\setbeamerfont{caption}{size=\scriptsize}
+\renewcommand\figurename{图}
+\renewcommand\tablename{表}
 
 % Navigation symbols:
 % \setbeamertemplate{navigation symbols}{}
@@ -93,8 +98,8 @@
   \leavevmode%
   \@tempdimb=6.4375ex%
     %\multiply\@tempdimb by\beamer@sectionmax%
-    \pgfdeclareimage[height=.95\@tempdimb]{logo}{seu_logo.png}%
-    \pgfdeclareimage[height=1.\@tempdimb]{title_logo}{seu_title.png}%
+    \pgfdeclareimage[height=.85\@tempdimb]{logo}{seu_logo.png}%
+    \pgfdeclareimage[height=.9\@tempdimb]{title_logo}{seu_title.png}%
   \logo{\pgfuseimage{logo}}%
   \ifdim\@tempdimb>0pt%
     \advance\@tempdimb by 1.125ex%
