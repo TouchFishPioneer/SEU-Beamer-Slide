@@ -2,21 +2,31 @@
 %设置为 Beamer 文档类型，设置字体为 10pt，长宽比为16:9，数学字体为 serif 风格
 
 %%%%-----导入宏包-----%%%%
-\usepackage{ccnu}			%导入 CCNU 模板宏包
-%\usepackage{ctex}			 %导入 ctex 宏包，添加中文支持
+\usepackage{seu}
 \usepackage{xeCJK}
-\usepackage{amsmath,amsfonts,amssymb,bm}   %导入数学公式所需宏包
-\usepackage{color}			 %字体颜色支持
+\usepackage{amsmath,amsfonts,amssymb,bm}
+\usepackage{color}
 \usepackage{graphicx,hyperref,url}	
 %%%%%%%%%%%%%%%%%%
 
 
-\setsansfont{Helvetica} 							%Windows和Mac OS下都可用
-%\setsansfont{Times New Roman}
-%\setCJKmainfont{Hiragino Sans GB W3}    	%仅Windows可用
-\setCJKmainfont{Songti SC}								%仅Mac OS下可用
+%%%%-----设置字体-----%%%%
+%Windows和Mac OS下都可用
+\setsansfont{Helvetica}
 
-\beamertemplateballitem		%设置 Beamer 主题
+%\setsansfont{Times New Roman}
+
+%仅Windows可用
+%\setCJKmainfont{Hiragino Sans GB W3}
+
+%仅Mac OS下可用
+%\setCJKmainfont{Songti SC}
+
+
+
+
+%设置 Beamer 主题
+\beamertemplateballitem
 
 
 \AtBeginSection[]
@@ -256,7 +266,7 @@
                 检验结果表明，65\%的SMS服务的编码熵较低，容易被预测和攻击。
             \end{block}
             \begin{columns}
-            
+
                 \column{.26\textwidth}
                 \begin{figure}
                     \centering
@@ -272,7 +282,7 @@
                     \caption{Talk2}
                     \label{figure3_Talk2}
                 \end{figure}
-                
+
                 \column{.26\textwidth}
                 \begin{figure}
                     \centering
@@ -280,9 +290,9 @@
                     \caption{Google}
                     \label{figure3_Google}
                 \end{figure}
-                
+
             \end{columns}
-            
+
 		\end{frame}
 
 		\begin{frame}
@@ -294,7 +304,7 @@
                 \item \textbf{网络钓鱼活动}：试图欺骗用户，使其相信自己正与合法网站通信。
     		  \end{itemize}
             \end{block}
-            
+
             \begin{columns}
 
                 \column{.26\textwidth}
@@ -312,7 +322,7 @@
                     \caption{钓鱼短信实例}
                     \label{figure10_Talk2}
                 \end{figure}
-                
+
                 \column{.26\textwidth}
                 \begin{figure}
                     \centering
@@ -322,7 +332,7 @@
                 \end{figure}
 
             \end{columns}
-            
+
 		\end{frame}
 
 \section[结论]{结论}
@@ -351,7 +361,7 @@
                         \end{beamercolorbox}
                     \end{minipage}
                 \end{center}
-                
+
                 \begin{figure}[!t]
                     \centering
                     \includegraphics[width=.8\textwidth]{figures/figure5.png}

@@ -1,4 +1,4 @@
-%% FileName    : ccnu.sty
+
 %%%
 %%% Inherit definitions from existing themes (DO NOT MODIFY THESE)
 %%%
@@ -52,12 +52,11 @@
 %%%
 
 % Background
-\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{seu_background}
+\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{source/seu_background.png}
 \setbeamertemplate{background}{\pgfuseimage{bg}}
 
 % Colors
 % \usecolortheme[RGB={182,11,45}]{structure} %Red
-% \usecolortheme[RGB={0,98,109}]{structure} %CCNU
 \usecolortheme[RGB={81,122,52}]{structure} %SEU
 
 \setbeamercolor{frametitle}{parent=subsection in head/foot}
@@ -76,7 +75,7 @@
 
 % Footline: AUTHOR | TITLE | DATE FRAMENUMBER
 
-\defbeamertemplate*{footline}{ccnu theme}{%
+\defbeamertemplate*{footline}{seu theme}{%
   \leavevmode%
   \hbox{%
   \begin{beamercolorbox}[wd=.25\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
@@ -94,12 +93,12 @@
   \vskip0pt%
 }
 
-\defbeamertemplate*{headline}{ccnu theme}{%
+\defbeamertemplate*{headline}{seu theme}{%
   \leavevmode%
   \@tempdimb=6.4375ex%
     %\multiply\@tempdimb by\beamer@sectionmax%
-    \pgfdeclareimage[height=.85\@tempdimb]{logo}{seu_logo.png}%
-    \pgfdeclareimage[height=.9\@tempdimb]{title_logo}{seu_title.png}%
+    \pgfdeclareimage[height=.85\@tempdimb]{logo}{source/seu_logo.png}%
+    \pgfdeclareimage[height=.9\@tempdimb]{title_logo}{source/seu_title.png}%
   \logo{\pgfuseimage{logo}}%
   \ifdim\@tempdimb>0pt%
     \advance\@tempdimb by 1.125ex%
@@ -118,7 +117,7 @@
   \fi%
 }
 
-\defbeamertemplate*{frametitle}{ccnu theme}{%
+\defbeamertemplate*{frametitle}{seu theme}{%
   \nointerlineskip%
   %\vskip-2pt%
   \hbox{\leavevmode

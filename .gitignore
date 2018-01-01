@@ -178,3 +178,6 @@ TSWLatexianTemp*
 
 # KBibTeX
 *~[0-9]*
+
+# MacOS .DS_Store Files
+*.DS_Store
