@@ -1,18 +1,3 @@
 xelatex SEU_BeamerTemplate
 xelatex SEU_BeamerTemplate
-rm *.aux
-rm *.bak
-rm *.log
-rm *.bbl
-rm *.dvi
-rm *.blg
-rm *.thm
-rm *.toc
-rm *.out
-rm *.lof
-rm *.lol
-rm *.lot
-rm *.nav
-rm *.snm
-rm *.fdb_latexmk
-rm *.synctex.gz
+rm -f *.aux *.bak *.log *.bbl *.dvi *.blg *.thm *.toc *.out *.lof *.lol *.lot *.nav *.snm *.fdb_latexmk *.synctex.gz
