@@ -4,6 +4,8 @@
 
 [点此预览](https://github.com/wurahara/SEU-Beamer-Slide/blob/master/SEU_BeamerTemplate.pdf)
 
+[Overleaf直链](https://www.overleaf.com/read/srvxqtjhcjbn)
+
 ### 本模板适合
 - 本科、硕士和博士论文答辩
 - 各种学术报告、国际会议
